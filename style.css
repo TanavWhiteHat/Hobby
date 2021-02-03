@@ -1,6 +1,7 @@
 body{
     margin: 0;
   background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    text-align: center;
 }
 
 .profile{
@@ -72,7 +73,7 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 40px;
     z-index: 10;
@@ -93,4 +94,41 @@ p {
 
 .link:hover {
     background-color: dodgerblue;
+}
+
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+head{
+    background-color: azure;
+}
+
+div{
+    margin-top: 15px;
+}
+
+.image-section{
+    display: flex;
+    justify-content: center;
+}
+
+.section-style{
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+img{
+    height: 300;
+        width: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
