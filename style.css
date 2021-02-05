@@ -34,6 +34,7 @@ h1 {
     
 }
 
+
 #name {
     font-size: 30px;
     font-weight: 300;
@@ -123,10 +124,16 @@ div{
 img{
     height: 300;
         width: 400;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
 }
 
 a{
     text-decoration: none;
+}
+
+img:hover {
+    tranform: scale(0.9);
 }
 
 html {
