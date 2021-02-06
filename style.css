@@ -71,30 +71,6 @@ p {
     vertical-align: middle;
 }
 
-.menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: fixed;
-    top: 10px;
-    left: 40px;
-    z-index: 10;
-    cursor: pointer;
-}
-
-.link {
-    float: left;
-    color: #fff; 
-    padding-top: 5px;
-    padding-right: 9px;
-    padding-left: 9x;
-    padding-bottom: 5px;
-    font: fantasy;
-    font-size 35px;
-    
-}
-
-.link:hover {
-    background-color: dodgerblue;
 }
 
 body{
@@ -139,3 +115,45 @@ img:hover {
 html {
     scroll-behavior: smooth;
 }
+
+    #contact {
+        background-color: firebrick;
+    }
+    #contact iframe {
+        width: 100%;
+    }
+
+    .contact_1 h3 {
+        display: inline;
+    }
+    .contact_1 a {
+        color:white;
+        text-shadow: none;
+    }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+    position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
